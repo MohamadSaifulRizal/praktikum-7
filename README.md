@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+![Screenshot 2024-10-07 094035](https://github.com/user-attachments/assets/a076f9b9-3f4f-4af8-9414-8433ff658867)
+pada gambar diatas saya telah mengimplementasikan tittle row dan melakukan penyesuaian dengan soal-soalnya. dan juga telah sampai di implementasi button row
