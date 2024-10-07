@@ -74,15 +74,35 @@ Widget buttonSection = Row(
   ],
 );
 
+Widget textSection = Container(
+  padding: const EdgeInsets.all(32),
+  child: Column(
+    children: [
+      Image.asset("assets/bs.jpg"
+      ),
+      const SizedBox(height: 16), // Jarak antara gambar dan teks
+      const Text(
+        'Pantai Blimbingsari terletak di Kecamatan Rogojampi, lokasinya sangat dekat dengan Bandara Internasional Banyuwangi. Pantai ini terkenal dengan kuliner ikan bakarnya yang khas Banyuwangi. Di sini kamu tidak hanya disuguhi pemandangan alam khas pantai, tetapi kamu juga bisa mencicipi berbagai olahan makanan laut. Di pinggir pantai kamu akan melihat deretan perahu nelayan yang bisa dijadikan sebagai objek foto. Tidak seperti pantai yang ada di Bali, pasir di Pantai Blimbingsari berwarna gelap cenderung hitam. Namun, warna pasir tersebut tidak mengurangi keelokan pantai ini.', // Teks deskripsi
+        softWrap: true,
+      ),
+    ],
+  ),
+);
+
+
     return MaterialApp(
       title: 'Mohamad Saiful Rizal_362358302005',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter layout demo'),
+          title: const Text('pantai belimbingsari uraaaaa'),
         ),
-        body: Column(
+        body: ListView(
           children: [
+            Image.asset("assets/bs.jpg"
+            ),
             titleSection,
+            buttonSection,
+            textSection,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
