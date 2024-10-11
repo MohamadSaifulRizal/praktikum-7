@@ -16,14 +16,14 @@ class MyApp extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.only(bottom: 8),
                 child: const Text(
-                  'Wisata Gunung di Batu',
+                  'Wisata Pantai di Banyuwangi',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
               const Text(
-                'Batu, Malang, Indonesia',
+                'Belimbingsari, Banyuwangi, Indonesia',
                 style: TextStyle(
                   color: Colors.grey,
                 ),
@@ -33,9 +33,9 @@ class MyApp extends StatelessWidget {
         ),
         const Icon(
           Icons.star,
-          color: Colors.red,
+          color: Color.fromARGB(255, 255, 255, 0),
         ),
-        const Text('41'),
+        const Text('5'),
       ],
     ),
   );
@@ -68,9 +68,9 @@ class MyApp extends StatelessWidget {
 Widget buttonSection = Row(
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   children: [
-    _buildButtonColumn(color, Icons.call, 'CALL'),
-    _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
-    _buildButtonColumn(color, Icons.share, 'SHARE'),
+    // _buildButtonColumn(color, Icons.call, 'CALL'),
+    // _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+    // _buildButtonColumn(color, Icons.share, 'SHARE'),
   ],
 );
 
